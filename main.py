@@ -19,6 +19,12 @@ class SoftwareRender:
         self.projection = Projection(self)
         self.object = self.get_object_from_file("resources/RubixCube.obj")
         self.object.rotate_y(-math.pi / 4)
+        
+        # add water
+        from water import Water
+        self.water = Water(self, width=30, height=30, resolution=20)
+        self.water.translate([0, -2, 0])  # so its below cube
+
 
     def get_object_from_file(self, filename):
         vertex, faces = [], []
@@ -34,6 +40,7 @@ class SoftwareRender:
     def draw(self):
         self.screen.fill(pg.Color('darkslategray'))
         self.object.draw()
+        self.water.draw()  # draw water TOOOOOOOOOOOOOOOOOOOOOo
 
     def run(self):
         while True:
