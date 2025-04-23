@@ -3,6 +3,11 @@
 A Python-based 3D rendering engine using Pygame library, featuring a Rubik's Cube model display and trivial fluid simulation effects. 
 This project was inspired by and builds upon concepts learned from [YouTube tutorial on 3D Engine and Technology of Raycasting](https://youtu.be/M_Hx0g5vFko).
 
+## 🎬 Visual Showcase
+
+<img src="screenshots/visual_showcase.gif" alt="Start Screen" width="700"/>
+
+
 ## ✨ Features
 _• **🖼️ 3D Object Rendering**: Loads and displays 3D models from OBJ files_
 
@@ -24,10 +29,6 @@ _• **Object Loading**: Custom OBJ file parser that extracts vertex and face da
 
 _• **Wave Algorithm**: Procedural water waves using layered sine functions with time-based animation_
 
-## 🎬 Visual Showcase
-
-<img src="screenshots/visual_showcase.gif" alt="Start Screen" width="700"/>
-
 ## 🎮 Controls
 
 ### Camera Controls
@@ -36,6 +37,23 @@ _• **W/A/S/D**: Move camera forward/left/backward/right_
 _• **Q/E**: Move camera up/down_
 
 _• **Arrow Keys**: Rotate camera view_
+
+## ⚙️ Installation
+
+1. **📥 Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/3d-engine-py.git
+   cd 3d-engine-py
+2. **🐍 Create a virtual environment and activate it:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv/Scripts/activate`
+3. **📦 Install dependencies:**
+   ```bash
+   pip install -r requirements.txt # On Windows if pip is not recognized, try: `py -m pip install -r requirements.txt`
+4. **🕹️ Run the Engine:**
+   ```bash
+   python main.py
 
 ## 📂 Project Structure
 ```
@@ -50,33 +68,14 @@ _• **Arrow Keys**: Rotate camera view_
 ├── resources/            # Different 3d models and objects for display
 |├── RubixCube.obj
 |├── skull.obj
-│
+|
+├── screenshots/
+|├── visual_showcase.gif
+|├── visual_showcase.jpg
+|
 ├── requirements.txt
 └── README.md‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎# This file  
 ```
-
-## 🚀 Setup and Running
-
-## ⚙️ Installation
-
-1. 📥 **Clone the repository:**
-   ```bash
-   mkdir 3d-engine-py
-   cd 3d-engine-py
-   git init
-   # --- You May Skip first 3 commands if your directory was set
-   git clone https://github.com/jafarbekyusupov/3d-engine-py.git
-
-2. **🐍 Create a virtual environment and activate it:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv/Scripts/activate`
-3. **📦 Install dependencies:**
-   ```bash
-   pip install -r requirements.txt # On Windows if pip is not recognized:  try py -m pip install -r requirements.txt
-4. **🕹️ Run the game:**
-   ```bash
-   python main.py
 
 ## 🙏 Acknowledgements
 
