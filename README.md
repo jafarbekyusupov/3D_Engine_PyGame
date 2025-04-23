@@ -20,7 +20,7 @@ _• **Wave Algorithm**: Procedural water waves using layered sine functions wit
 
 ## Visual Showcase
 
-<img src="screenshots/visual_showcase.jpg" alt="Start Screen" width="350"/>
+<img src="screenshots/visual_showcase.gif" alt="Start Screen" width="350"/>
 
 ## 🎮 Controls
 
