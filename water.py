@@ -44,7 +44,7 @@ class Water(Object3D):
         water_color = pg.Color(64, 164, 223, 150)
         self.color_faces = [(water_color, face) for face in self.faces]
         
-        # don't auto-rotate
+        # DO NOT auto-rotate
         self.movement_flag = False
 
     def update(self):
