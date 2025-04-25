@@ -3,7 +3,7 @@
 A Python-based 3D rendering engine using Pygame library, featuring a Rubik's Cube model display and trivial fluid simulation effects. 
 This project was inspired by and builds upon concepts learned from [YouTube tutorial on 3D Engine and Technology of Raycasting](https://youtu.be/M_Hx0g5vFko).
 
-## 🎬 Visual Showcase
+## 🎬 [Visual Showcase - Watch on YouTube or wait for the GIF to load](https://youtu.be/mLx4Y-kwMAA)
 
 <img src="screenshots/visual_showcase.gif" alt="Start Screen" width="700"/>
 
